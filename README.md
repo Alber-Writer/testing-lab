@@ -27,3 +27,10 @@ npm run test search-bar\.component\.spec
 ```
 npm run test search-bar\.hook\.spec
 ```
+
+## Optional exercises
+Located at branch: *feature/laboratorio-testing-opcional*
+### ***SpinnerComponent*** tests
+```
+npm run test spinner\.component\.spec
+```
