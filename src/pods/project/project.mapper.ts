@@ -8,7 +8,7 @@ const mapEmployeeSummaryFromApiToVm = (
   ...employeeSummary,
 });
 
-const mapEmployeeSummaryListFromApiToVm = (
+export const mapEmployeeSummaryListFromApiToVm = (
   employeeSummary: apiModel.EmployeeSummary[]
 ): viewModel.EmployeeSummary[] =>
   mapToCollection(employeeSummary, es => mapEmployeeSummaryFromApiToVm(es));
