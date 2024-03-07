@@ -34,3 +34,8 @@ Located at branch: *feature/laboratorio-testing-opcional*
 ```
 npm run test spinner\.component\.spec
 ```
+
+### Login scene E2E with cypress
+```
+npm run test:e2e
+```
