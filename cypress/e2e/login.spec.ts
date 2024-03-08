@@ -1,5 +1,3 @@
-import '@testing-library/cypress/add-commands';
-
 describe('Login specs', () => {
   it('Should contain inputs: Usuario, Contraseña * and loggin button', () => {
     cy.visit('/');
