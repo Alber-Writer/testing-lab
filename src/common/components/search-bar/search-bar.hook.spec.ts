@@ -99,7 +99,7 @@ describe('common/components/search-bar/search-bar.hook specs', () => {
     expect(filterByTextStub).toHaveBeenCalledWith(colors, '', ['name']);
   });
 
-  it.only('should return filteredList with two elements equals blue and green when filterByText return array with two elements blue and green', () => {
+  it('should return filteredList with two elements equals blue and green when filterByText return array with two elements blue and green', () => {
     // Arrange
     const colors = [
       { id: 1, name: 'red' },

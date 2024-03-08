@@ -33,7 +33,7 @@ describe('common/components/spinner/spinner.component.tsx specs', () => {
     // Act
     render(<SpinnerComponent />);
     const modal = screen.queryByRole('presentation');
-    const loader = within(modal).queryByRole('loader');
+    const loader = within(modal).queryByLabelText('loader');
 
     // Assert
     expect(getStub).toHaveBeenCalled();
