@@ -39,3 +39,7 @@ npm run test spinner\.component\.spec
 ```
 npm run test:e2e
 ```
+### Headless E2E with cypress. Aimed to CI processes
+```
+npm run test:e2e:ci
+```
