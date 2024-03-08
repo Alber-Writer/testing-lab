@@ -43,6 +43,6 @@ describe('Login specs', () => {
 
     // Assert
     cy.findByRole('alert').should('contain.text','Usuario y/o password no válidos');
-    cy.url().should('eq', 'http://localhost:8080/#/');
+    cy.url().should('eq', 'http://localhost:8080/#/FAIL');
   });
 });
