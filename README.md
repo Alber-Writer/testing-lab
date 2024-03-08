@@ -27,3 +27,19 @@ npm run test search-bar\.component\.spec
 ```
 npm run test search-bar\.hook\.spec
 ```
+
+## Optional exercises
+Located at branch: *feature/laboratorio-testing-opcional*
+### ***SpinnerComponent*** tests
+```
+npm run test spinner\.component\.spec
+```
+
+### Login scene E2E with cypress
+```
+npm run test:e2e
+```
+### Headless E2E with cypress. Aimed to CI processes
+```
+npm run test:e2e:ci
+```
